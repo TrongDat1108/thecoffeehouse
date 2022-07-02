@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Why Coffee</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+
+<body>
+    <div id="main">
+        <div class="top">
+            <div class="nav black padding">
+                <div class="nav-content col s3"><a href="#" class="nav-sub black padding">HOME</a></div>
+                <div class="nav-content col s3"><a href="#about" class="nav-sub black padding">ABOUT</a></div>
+                <div class="nav-content col s3"><a href="#menu" class="nav-sub black padding">MENU</a></div>
+                <div class="nav-content col s3"><a href="#where" class="nav-sub black padding">WHERE</a></div>
+            </div>
+        </div>
+        <div id="header" class="img">
+            <div class="header-content">
+                <span class="header-tag">Open from 6am to 5pm</span>
+            </div>
+            <div class="header-center">
+                <span class="header-text-center">
+                    the
+                    <br>
+                    Cafe
+                </span>
+            </div>
+            <div class="header-address">
+                <span class="header-text-address">15 Adr street, 5015</span>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="content-section" id="about">
+                <div class="about-content">
+                    <h5 class="content-tag">
+                        <span class="content-tag-center">ABOUT THE CAFE</span>
+                    </h5>
+                    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                    <div class="content-panel">
+                        <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                        <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <img src="./assets/img/coffeeshop.jpg" alt="Coffee Shop" class="content-img">
+                    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+                </div>
+            </div>
+
+            <div class="content-section" id="menu">
+                <div class="about-content">
+                    <h5 class="content-tag">
+                        <span class="content-tag-center">THE MENU</span>
+                    </h5>
+                    <div class="content-menu">
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'content-eat');" id="myLink">
+                          <div class="content-memu-text tab-link">Eat</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'content-drink');">
+                          <div class="content-memu-text tab-link">Drink</div>
+                        </a>
+                    </div>
+                    <div id="content-eat" class="menu padding-48 padding-16 box-shadow">
+                        <h5 class="h5-font">Bread Basket</h5>
+                        <p class="content-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                        <br>
+                        <h5 class="h5-font">Honey Almond Granola with Fruits</h5>
+                        <p class="content-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                        <br>
+                        <h5 class="h5-font">Belgian Waffle</h5>
+                        <p class="content-text-grey">Vanilla flavored batter with malted flour 7.50</p>
+                        <br>
+                        <h5 class="h5-font">Scrambled eggs</h5>
+                        <p class="content-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                        <br>
+                        <h5 class="h5-font">Blueberry Pancakes</h5>
+                        <p class="content-text-grey">With syrup, butter and lots of berries 8.50</p>
+                    </div>
+
+                    <div id="content-drink" class="menu padding-48 padding-16 box-shadow">
+                        <h5 class="h5-font">Coffee</h5>
+                        <p class="content-text-grey">Regular coffee 2.50</p>
+                        <br>
+                        <h5 class="h5-font">Chocolate</h5>
+                        <p class="content-text-grey">Chocolate espresso with milk 4.50</p>
+                        <br>
+                        <h5 class="h5-font">Corretto</h5>
+                        <p class="content-text-grey">Whiskey and coffee 5.00</p>
+                        <br>
+                        <h5 class="h5-font">Iced tea</h5>
+                        <p class="content-text-grey">Hot tea, except not hot 3.00</p>
+                        <br>
+                        <h5 class="h5-font">Soda</h5>
+                        <p class="content-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+                    </div>
+                    <img src="./assets/img/coffeehouse2.jpg" alt="Coffee House" class="content-memu-img">
+                </div>
+            </div>
+
+            <div class="content-section" id="where">
+                <div class="about-content">
+                    <h5 class="content-tag">
+                        <span class="content-tag-center">WHERE TO FIND US</span>
+                    </h5>
+                    <p>Find us at some address at some place.</p>
+                    <img src="./assets/img/map.jpg" alt="Map" class="content-map">
+                    <p><span class="content-map-tag">FLY!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                    <div class="content-form">
+                        <form action="">
+                            <div class="content-from-row">
+                                <p class="content-form-col">
+                                    <input type="text"  name="" id="" required class="form-control" placeholder="Name">
+                                </p>
+                                <p class="content-form-col">
+                                    <input type="number"  name="" id="" required class="form-control" placeholder="How many people">
+                                </p>
+                                <p class="content-form-col">
+                                    <input type="datetime-local"  name="" id="" required class="form-control" placeholder="Date" value="2020-11-16T20:00">
+                                </p>
+                                <p class="content-form-col">
+                                    <input type="text" name="" id="" required class="form-control" placeholder="Message \ Special requirements">
+                                </p>
+                            </div>
+                            <p>
+                                <input type="submit" value="SEND MESSAGE" class="black content-submit">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="social-list text-center ">
+                <a href="https://www.facebook.com/ottadnorot/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/toronaruto/"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.pinterest.com/nguyentrongdat1108/"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright text-center">Powered by <a href="https://www.facebook.com/ottadnorot">Trong Dat</a></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

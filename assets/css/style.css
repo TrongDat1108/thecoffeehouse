@@ -1,0 +1,340 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.padding-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.padding-16 {
+    padding: 0.01em 16px;
+}
+
+.black {
+    color: #fff;
+    background-color: #000;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 100%;
+}
+
+.col.s3 {
+    width: 24.99999%;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.display {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#main {
+
+}
+
+.top {
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    display: block;
+}
+
+.nav::after {
+    content: " ";
+    display: table;
+    clear: both; 
+}
+
+.nav-content {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav .nav-content .nav-sub {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-sub:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.img {
+    position: relative;
+    padding-top: 36.8%;
+    background: url('/assets/img/coffeehouse.jpg') center / cover no-repeat;
+    filter: grayscale(50%);
+}
+
+.header-content {
+    position: absolute;
+    padding: 12px 24px;
+    left: 0;
+    bottom: 0;
+}
+
+.header-content .header-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.header-center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header-center .header-text-center {
+    color: #fff;
+    font-size: 90px;
+}
+
+.header-address {
+    position: absolute;
+    padding: 12px 24px;
+    right: 0;
+    bottom: 0;
+}
+
+.header-address .header-text-address {
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+#content {
+    width:100%;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    color: #000;
+    background-color: #fdf5e6;
+    filter: grayscale(75%);
+}
+
+#content .content-section {
+    padding: 0.01em 16px;
+}
+
+.content-section .about-content {
+    max-width: 700px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.content-section .about-content .content-tag {
+    padding: 64px 0;
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.content-tag .content-tag-center {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.content-section .about-content p {
+    font-size: 18px;
+}
+
+.content-section .about-content .content-panel {
+    font-size: 18px;
+    padding: 0.01em 16px;
+    border-left: 6px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.content-section .about-content .content-img {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 16px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.content-section .about-content .content-menu {
+    height: 26px;
+    padding: 8px 16px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.content-section .about-content .content-menu a {
+    color:#000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.content-section .about-content .content-menu .content-memu-text {
+    width: 49.99999%;
+    float: left;
+}
+
+.dark-grey {
+    color: #fff;
+    background-color: #616161;
+}
+
+.menu {
+    display: none;
+}
+
+.h5-font {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.content-text-grey {
+    color: #757575;
+    font-size: 18px;
+}
+
+.content-section .about-content .content-memu-img {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 32px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.content-section .about-content .content-map {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.content-section .about-content .content-map-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.content-section .about-content .content-form {
+    font-size: 18px;
+}
+
+.content-form-col {
+
+}
+
+.form-control {
+    padding: 16px 8px;
+    width: 97.5%;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+    border: 1px solid #ccc;
+    height: 27px;
+}
+
+.content-submit {
+    font-family: "Inconsolata", sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    height: 43px;
+}
+
+.content-submit:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#footer {
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+    font-family: Verdana, sans-serif;
+    opacity: 0.6;
+    padding-right: 16px;
+    margin-left: -8px;
+}
+
+.social-list a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social-list i {
+    color: #000;
+    font-size: 24px;
+}
+
+.social-list i:hover {
+    opacity: 0.6;
+}
+
+.copyright {
+    margin: 15px 0;
+    color: #000;
+}
+
+.copyright a {
+    color: #000;
+}
+
+.copyright a:hover {
+    opacity: 0.9;
+}
